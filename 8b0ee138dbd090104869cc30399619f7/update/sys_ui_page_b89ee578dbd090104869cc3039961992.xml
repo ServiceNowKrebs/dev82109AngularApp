@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description>HTML for Angular App&#13;
+https://developer.servicenow.com/dev.do#!/learn/courses/quebec/app_store_learnv2_angularjs_quebec_building_apps_with_angularjs/app_store_learnv2_angularjs_quebec_introduction_to_angularjs_in_servicenow/app_store_learnv2_angularjs_quebec_two_way_data_binding</description>
+        <direct>false</direct>
+        <endpoint>x_356576_angular_a_angular_app.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"></link>
+	<script src="x_356576_angular_a.angular_app_client_lo.jsdbx"></script>
+	<div ng-app="angularapp" ng-controller="AngularAppCtrl as appctrl">
+		<input type="text" ng-model="myVar" placeholder="Enter some text here!"></input>
+		<p></p>
+		<div class="jumbotron">
+			<h1 class="display-3">Hello World!</h1>
+			<hr class="m-y-2"/>
+			<p>{{myVar}}</p>
+		</div>
+		<button ng-click="clearTxt()" type="button" class="btn btn-primary">Clear Text</button>
+	</div>
+</j:jelly>]]></html>
+        <name>angular_app</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-18 09:26:08</sys_created_on>
+        <sys_id>b89ee578dbd090104869cc3039961992</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>angular_app</sys_name>
+        <sys_package display_value="Angular App" source="x_356576_angular_a">8b0ee138dbd090104869cc30399619f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Angular App">8b0ee138dbd090104869cc30399619f7</sys_scope>
+        <sys_update_name>sys_ui_page_b89ee578dbd090104869cc3039961992</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-09 09:45:43</sys_updated_on>
+    </sys_ui_page>
+</record_update>
